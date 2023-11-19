@@ -12,4 +12,12 @@ public class WiseSaying {
     public long getId() {
         return this.id;
     }
+
+    public Object getAuthor() {
+        return this.author;
+    }
+
+    public Object getContent() {
+        return this.content;
+    }
 }
